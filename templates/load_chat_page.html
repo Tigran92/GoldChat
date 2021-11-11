@@ -1,0 +1,102 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+<link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css"
+rel="stylesheet">
+
+<link rel="stylesheet" type="text/css" href="../css/style.css" >
+
+		
+		<header>
+    <nav class="navbar navbar-default">
+      <div class="container">
+
+
+        <div class="navbar-header"> 
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span> 
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href="">
+            <div class="navbar-brand"><a href="load_chat_page.html">Username</a></div> 
+        </div> <!-- navbar header -->
+          <div class="collapse navbar-collapse span12">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="settings.html"><span></span> Settings</a></li>
+              <li><a href="login.html"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    </header>
+
+		<!-- <div id = "maincontent" style = "margin: 2 5em; height:100%;"> -->
+
+
+
+	<!-- <input class="btn" style="float:right;" type='submit' name='logout' value='Logout'/>
+	<input class="btn" style="float:right;" type='submit' name='settings' value='settings'/> -->
+	<!-- <button type = "submit">Logout</button>
+	<button type = "submit">Settings</button>
+-->
+<!-- <h1> Hello, SOMENAME</h1> -->
+
+<h2 class="col-sm-12 col-md-12 h2-md h2 page-header">GoldChat</h2>
+<!-- <input type='submit' name='showusers' value='Show users'/>
+ --><!-- <p> on click of this button it should show a list of ppl *note: div id onlineusers is display:none</p>
+ -->
+
+<div class="row navbar2">
+		<div class="col-md-2 col-md-offset-4"> <a href="user_main_page.html">Global Chat</a></div>
+		<div class="col-md-2"><a href="user_main_page.html">Local Chat</a></div>
+		<div class="col-md-2"> <a href="user_main_page.html">Group Chat</a></div>
+	</div>
+
+
+<div id = "onlineusers" style = "border-style: solid; display: inline-block; width: 10em; display:none;">
+<p>current users:</p>
+<ul>
+<li style="color: green">guy1</li>
+<li style="color: green">guy2</li>
+<li style="color: green">girl1</li>
+<li style="color: orange">guy3</li>
+<li style="color: red">girl2</li>
+<li style="color: red">girl3</li>
+<li style="color: grey">guy4</li>
+<li style="color: grey">girl4</li>
+<li style="color: grey">guy5</li>
+<li style="color: grey">girl5</li>
+<li style="color: grey">girl6</li>
+<li style="color: grey">girl6</li>
+</ul>
+</div>
+
+
+
+<div class="col-md-4" style = " border-style: ridge; float: right; width: 50%;margin: auto; margin-right: 22%;  background: #f2f2f2;">
+
+<!-- <input type='submit' name='chatsettings' value='chat settings' style = "float: right" />
+ --><b>   Title - *GLOBAL CHAT/LOCAL CHAT/GROUP CHAT'S NAME</b>
+ 
+<div id = "chat_title"> </div>
+
+<div  id = "chat" style = " margin: 1em;">
+
+<div  id = "messages" style = "background: white; height:50%; verflow-y: scroll; overflow-x:hidden; border-style:inset; margin:1em;">
+	
+</div>
+
+<form method = 'POST' id = "sendmessage"> 
+<input name = "message" type='text' style = "width: 80%; margin: 15px; padding: 15px;" name='chatbox' placeholder='Enter message'/>
+<!-- <input type='submit' style = "float:right;" name='submitmessage' placeholder='post'/> -->
+<input type = "submit" value= "Send" onclick="sendmessage()"/>
+</form>
+
+</div>
+
+
+
+</div>
+
+</div>

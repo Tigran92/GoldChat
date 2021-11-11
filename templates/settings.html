@@ -1,0 +1,84 @@
+<link rel="stylesheet" type="text/css" href="../css/style.css" >
+<script type="text/javascript" src="../js/jquery-1.10.2.min.js"></script>
+<script src="../js/index.js"></script>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+<link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css"
+rel="stylesheet">
+
+<link rel="stylesheet" type="text/css" href="../css/style.css" >
+
+    
+    <header>
+    <nav class="navbar navbar-default">
+      <div class="container">
+
+
+        <div class="navbar-header"> 
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span> 
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href="">
+            <div class="navbar-brand"><a href="load_chat_page.html">Username</a></div> 
+        </div> <!-- navbar header -->
+          <div class="collapse navbar-collapse span12">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="settings.html"><span></span> Settings</a></li>
+              <li><a href="login.html"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    </header>
+
+<div id ='Settings'>
+
+    <div id="content">
+      <div id="useravatar"><img src="../images/useravatar.png" alt="default avatar"></div>
+      
+      <h1>User's name</h1>
+
+
+      	<nav id="settingstabs">
+        <ul>
+          <li><a href="#radiussettings" class="selected">Radius Settings</a></li>  
+          <li><a href="#biosettings">Bio Settings</a></li>
+        </ul>
+      </nav>
+
+      	<section id="radiussettings">
+      		
+      	<p> Choose The Radius Where You Want To Chat In: </p>	
+      	
+      		<div id="radiusbar"> 
+
+
+  	    	</div>
+
+
+
+      	</section>
+
+      	<section id="biosettings" class="hide">
+        <p>Edit your user settings:</p>
+      		
+		<form id="settings-form" method = "POST" enctype="multipart/form-data">
+  
+          <p class="bioset"> <span>E-mail Address </span><input type="text" name="email" placeholder="jsmith@example.com"/></p>
+          <p class="bioset"> <span>Username </span><input type="text" name="username" placeholder="JSmith"/></p>
+          <p class="bioset"> <span>First Name</span><input type="text" name="firstname" placeholder="John"/></p>
+          <p class="bioset"> <span>Last Name</span><input type="text" name="lastname" placeholder="Smith"/></p>
+          <p class="bioset"> <span>New Password </span><input type="text" name="password" placeholder="password123"/></p>
+
+          <button type = "submit">Save Changes</button>
+   		 </form>		
+
+	  
+      </section>
+
+	</div>
+</div>

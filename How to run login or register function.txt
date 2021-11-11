@@ -1,0 +1,7 @@
+what you need to do:
+1) change the db_connect.php to what ever your connecting to. (includes/db_connect.php)
+
+2.1) create the database 'CREATE DATABASE groupchatdb;' in (sql/schema.sql)
+2.2) now using schema.sql, run the script
+
+IF you done this correctly, the login and register should work by appending stuff at the bottom of the page.

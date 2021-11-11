@@ -1,0 +1,22 @@
+@CHARSET "ISO-8859-1";
+
+#home { 
+	
+}
+
+#settings {
+	color: blue;
+	border-style: solid;
+}
+
+#login {
+	color: green;
+	border-style: solid;
+}
+
+#navigation_bar {
+
+}
+
+#register {
+}
